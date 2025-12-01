@@ -1,0 +1,138 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Home Background */
+body.home {
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+    position: relative;
+    height: 100vh;
+}
+
+/* Dark overlay for readability */
+.home .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.45);
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar .nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #eee;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links .active {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 30%;
+    transform: translateY(-30%);
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.buttons .btn {
+    padding: 12px 28px;
+    background: #ffffffcc;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.buttons .btn:hover {
+    background: #fff;
+}
+
+.buttons .secondary {
+    background: #ddddddcc;
+}
+
+.buttons .secondary:hover {
+    background: #e8e8e8;
+}
+
+/* Content pages (A/B) */
+.content {
+    padding: 60px 80px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+/* Table Styling */
+.table-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+table th, table td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #f0f0f0;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background: #fafafa;
+}
