@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome to My Simple Website</h1>
+    <p>This is a demo site hosted on GitHub Pages.</p>
+
+    <h2>Navigation</h2>
+    <ul>
+        <li><a href="pageA.html">Go to Page A</a></li>
+        <li><a href="pageB.html">Go to Page B</a></li>
+    </ul>
+</body>
+</html>
