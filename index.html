@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Welcome to My Simple Website</h1>
-    <p>This is a demo site hosted on GitHub Pages.</p>
+<body class="home">
 
-    <h2>Navigation</h2>
-    <ul>
-        <li><a href="pageA.html">Go to Page A</a></li>
-        <li><a href="pageB.html">Go to Page B</a></li>
-    </ul>
+    <div class="overlay"></div>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">My Site</a>
+        <div class="nav-links">
+            <a href="pageA.html">Page A</a>
+            <a href="pageB.html">Page B</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>A simple, clean, elegant site hosted on GitHub Pages.</p>
+        <div class="buttons">
+            <a href="pageA.html" class="btn">Go to Page A</a>
+            <a href="pageB.html" class="btn secondary">Go to Page B</a>
+        </div>
+    </div>
+
 </body>
 </html>
